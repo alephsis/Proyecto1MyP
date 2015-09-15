@@ -150,22 +150,6 @@ public class Lista<T> implements Iterable<T>{
 	}
 	this.longitud++;	
     }
-    /**
-     * Agrega un elemento al final de la lista. Si la lista no tiene elementos,
-     * el elemento a agregar será el primero y el último a la vez.
-     * @param elemento el elemento a agregar.
-     */
-    public void agregaFinal(T elemento) {
-        
-	if(this.longitud == 0){
-	    this.cabeza = this.rabo = new Lista<T>.Nodo (elemento);
-	}else{
-	    rabo.siguiente = new Lista<T>.Nodo (elemento);
-	    rabo.siguiente.anterior = rabo;
-	    rabo = rabo.siguiente;	    	    
-	}
-	this.longitud++;	
-    }
 
     /**
      * Agrega un elemento al inicio de la lista. Si la lista no tiene elementos,
