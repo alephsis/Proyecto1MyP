@@ -14,7 +14,7 @@ public class TokenFunc extends Token{
      */
 
     public void setS(String s){	
-	if(s.equals("sen") || s.equals("cos") || s.equals("tan") ||
+	if(s.equals("sin") || s.equals("cos") || s.equals("tan") ||
 	   s.equals("sec") || s.equals("csc") || s.equals("cot") ||
 	   s.equals("sqr")){ 
 	    this.s = s;

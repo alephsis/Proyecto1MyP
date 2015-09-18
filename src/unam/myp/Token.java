@@ -22,8 +22,20 @@ public class Token {
 	return s;
     }//escupe
     
+    /** Modificador que cambia el contenido del token 
+     *  @param s la cadena que irá en el Token
+     */
     public void setS(String s){
 	this.s = s;
     }//setS
-    
+
+    /**
+     *  Método que nos da una representación en 
+     *  cadena del token 
+     *  @return s el contenido del Token
+     */        
+    public String toString(){
+	return s;
+    }//escupe
+        
 }//class

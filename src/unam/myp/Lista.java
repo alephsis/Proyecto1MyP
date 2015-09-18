@@ -335,9 +335,9 @@ public class Lista<T> implements Iterable<T>{
 	if (this.longitud == 0) return "[]";
 	String s = "[";
 	for (T e : this){
-	    s+=e.toString() + ", ";
+	    s+=e.toString() + ",";
 	}	
-	return s.substring(0,s.length()-2) + "]";
+	return s.substring(0,s.length()-1) + "]";
     }
     
     /**

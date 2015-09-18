@@ -22,8 +22,8 @@ public class TestTokenFunc{
     @Test public void testsetS(){
 	token.setS("lel");
 	Assert.assertTrue(token.escupe().equals(""));
-	token.setS("sen");
-	Assert.assertTrue(token.escupe().equals("sen"));
+	token.setS("sin");
+	Assert.assertTrue(token.escupe().equals("sin"));
 	token.setS("cos");
 	Assert.assertTrue(token.escupe().equals("cos"));
 	token.setS("tan");
